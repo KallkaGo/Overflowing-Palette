@@ -1,0 +1,190 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #111b1d;
+  overflow: hidden;
+}
+
+#wrap {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+#cv {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: manipulation;
+}
+
+#game-hud {
+  position: fixed;
+  pointer-events: none;
+  overflow: visible;
+  font-weight: 400;
+  font-synthesis: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 26px;
+  background: radial-gradient(ellipse at center, #16282b 0%, #111b1d 55%, #0b1315 100%);
+  will-change: opacity;
+}
+/* 这里只由合成层处理透明度动画；棋盘溶解效果由下方画布绘制。 */
+.loader.done { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .35s ease-out, visibility 0s .35s; }
+.loader-grid {
+  display: grid;
+  grid-template: repeat(3, 22px) / repeat(3, 22px);
+  gap: 5px;
+}
+.loader-grid i {
+  border-radius: 5px;
+  background: #1c2c2f;
+  animation: loader-paint 1.8s ease-in-out infinite;
+  animation-delay: calc((var(--n) + var(--m)) * .14s);
+}
+.loader-grid i:nth-child(3n + 1) { --n: 0; }
+.loader-grid i:nth-child(3n + 2) { --n: 1; }
+.loader-grid i:nth-child(3n) { --n: 2; }
+.loader-grid i:nth-child(-n + 3) { --m: 0; }
+.loader-grid i:nth-child(n + 4):nth-child(-n + 6) { --m: 1; }
+.loader-grid i:nth-child(n + 7) { --m: 2; }
+.loader-title {
+  color: #aa9b6a;
+  font: 300 22px/1 "Microsoft YaHei", "PingFang SC", sans-serif;
+  letter-spacing: .5em;
+  text-indent: .5em;
+}
+.boot-message {
+  margin: 0;
+  min-height: 1.8em;
+  width: min(460px, 80vw);
+  color: #8fa3a2;
+  font: 13px/1.8 "Microsoft YaHei", sans-serif;
+  text-align: center;
+}
+@keyframes loader-paint {
+  0%, 100% { background: #1c2c2f; transform: scale(.88); }
+  25% { background: #63a6d1; transform: scale(1); }
+  50% { background: #c6443e; transform: scale(1); }
+  75% { background: #ceb86e; transform: scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loader-grid i { animation: none; background: #63a6d1; }
+}
+
+dialog {
+  box-sizing: border-box;
+  width: min(420px, calc(100vw - 48px));
+  padding: 26px 28px 24px;
+  color: #e9ecdd;
+  background: linear-gradient(180deg, #17292d 0%, #101b1e 100%);
+  border: 1px solid #3a5558;
+  border-radius: 12px;
+  box-shadow: 0 24px 80px #000a, inset 0 1px #ffffff12;
+  font: 15px "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+dialog[open] { animation: dialog-in .22s cubic-bezier(.2, .8, .2, 1); }
+dialog::backdrop { background: #050a0cb0; backdrop-filter: blur(3px); }
+@keyframes dialog-in { from { opacity: 0; transform: translateY(10px) scale(.98); } }
+dialog header { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; }
+dialog h2 { margin: 0; font: 400 22px/1.2 "LifePointGame", "Microsoft YaHei", sans-serif; letter-spacing: .08em; color: #d8c98a; }
+.dots { display: grid; grid-template: 8px 8px / 8px 8px; gap: 3px; }
+.dots::before, .dots::after { content: ""; grid-row: 1; width: 8px; height: 8px; border-radius: 2px; background: #63a6d1; box-shadow: 0 11px #ceb86e; }
+.dots::after { grid-column: 2; background: #c6443e; box-shadow: 0 11px #549e8f; }
+dialog p { margin: 0 0 22px; line-height: 1.8; color: #c3d0cd; }
+dialog [hidden] { display: none; }
+.steps { margin: 0 0 18px; padding: 0; list-style: none; counter-reset: step; display: grid; gap: 14px; }
+.steps li { position: relative; padding-left: 38px; line-height: 1.65; color: #bccac7; font-size: 14px; counter-increment: step; }
+.steps li::before {
+  content: counter(step); position: absolute; left: 0; top: 1px; width: 24px; height: 24px; border-radius: 7px;
+  display: grid; place-items: center; background: #1d3236; border: 1px solid #3f6064; color: #d8c98a;
+  font: 13px/1 "LifePointGame", sans-serif;
+}
+.steps b { display: block; margin-bottom: 1px; color: #f1f0df; font-weight: 500; font-size: 15px; }
+.keys { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 24px; padding: 13px 0 0; border-top: 1px solid #ffffff14; color: #93a8a5; font-size: 13px; }
+.keys span { display: inline-flex; align-items: center; gap: 7px; }
+kbd {
+  min-width: 22px; box-sizing: border-box; padding: 2px 6px; border: 1px solid #46676b; border-bottom-width: 2px; border-radius: 5px;
+  background: #1a2d31; color: #e2e5d2; font: 12px/1.3 "LifePointGame", sans-serif; text-align: center;
+}
+dialog form { display: flex; justify-content: flex-end; gap: 10px; }
+dialog button {
+  min-width: 96px; padding: 10px 20px; border: 1px solid #46676b; border-radius: 8px;
+  background: #1a2d31; color: #dfe6da; font: inherit; cursor: pointer; transition: background .15s, border-color .15s;
+}
+dialog button:hover { background: #223a3f; border-color: #6c9296; }
+dialog button[value="reset"], dialog button[value="continue"] { color: #1c1a0e; background: #d8c98a; border-color: #d8c98a; font-weight: 600; }
+dialog button[value="reset"]:hover, dialog button[value="continue"]:hover { background: #e6d899; border-color: #e6d899; }
+dialog button:focus-visible { outline: 2px solid #f5e7ac; outline-offset: 3px; }
+.bonus-choice { display: flex; gap: 10px; align-items: flex-start; margin: 0 0 22px; padding: 12px 14px; border-radius: 8px; background: #1a2d31; font-size: 13px; line-height: 1.7; color: #c3d0cd; cursor: pointer; }
+.bonus-choice[hidden] { display: none; }
+.bonus-choice input { margin: 4px 0 0; accent-color: #d8c98a; }
+
+#level-picker { position: fixed; z-index: 2; display: grid; gap: 9px; color: #bfb47e; font: 12px "Microsoft YaHei", sans-serif; }
+#level-picker[hidden] { display: none; }
+#level-button {
+  box-sizing: border-box; width: 100%; padding: 0 30px 0 12px; border: 1px solid #435b5e; border-radius: 2px;
+  color: #eef0e4; background: #142326 no-repeat right 12px center / 10px 6px
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M0 0h10L5 6z' fill='%23bfb47e'/%3E%3C/svg%3E");
+  font: 14px "Microsoft YaHei", sans-serif; text-align: left; cursor: pointer;
+  transition: border-color .15s;
+}
+#level-button:hover, #level-button[aria-expanded="true"] { border-color: #bfb47e; }
+#level-button:focus-visible { outline: 2px solid #d9c581; outline-offset: 3px; }
+#level-button:disabled { opacity: .4; cursor: default; }
+#level-list {
+  position: absolute; top: 100%; left: 0; right: 0; z-index: 3; margin: 6px 0 0; padding: 4px 0; list-style: none;
+  box-sizing: border-box; height: min(288px, 55vh); overflow-y: auto; overscroll-behavior: contain;
+  border: 1px solid #435b5e; border-radius: 2px; background: #101c1f; box-shadow: 0 10px 28px #0009;
+  scrollbar-width: thin; scrollbar-color: transparent transparent;
+}
+#level-list[hidden] { display: none; }
+#level-list.scrolling { scrollbar-color: #bfb47e88 transparent; }
+#level-list li { padding: 0 14px; height: 34px; line-height: 34px; color: #cfd8d2; font-size: 14px; cursor: pointer; white-space: nowrap; }
+#level-list .level-group { height: 28px; line-height: 28px; color: #8a8458; font-size: 12px; letter-spacing: .12em; cursor: default; }
+#level-list li[role="option"].active { background: #1b2f33; color: #fff; }
+#level-list li[aria-selected="true"] { color: #e6cf85; box-shadow: inset 3px 0 #bfb47e; }
+
+#sound-toggle {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  padding: 4px;
+  border: 0;
+  background: transparent;
+  color: #f3f5e8;
+  cursor: pointer;
+}
+#sound-toggle svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+#sound-toggle:focus-visible { outline: 2px solid #d9c581; outline-offset: 3px; }
+#sound-toggle:disabled { opacity: .4; cursor: default; }
+.sound-cross { display: none; }
+#sound-toggle[aria-pressed="true"] .sound-waves { display: none; }
+#sound-toggle[aria-pressed="true"] .sound-cross { display: block; }

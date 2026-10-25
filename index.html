@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>溢彩画 · ColorfulPainting</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles/game.css">
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <main id="wrap">
+    <canvas id="cv" aria-busy="true"
+      aria-label="溢彩画棋盘。按1至4选择颜料，点击色块染色，R重置，N切换关卡，M静音，问号查看帮助。"></canvas>
+  </main>
+  <div id="level-picker" hidden>
+    <span id="level-label">原版关卡</span>
+    <button id="level-button" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="level-label level-button" disabled></button>
+    <ul id="level-list" role="listbox" aria-labelledby="level-label" tabindex="-1" hidden></ul>
+  </div>
+  <div id="loader" class="loader">
+    <div class="loader-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="loader-title">溢彩画</div>
+    <p id="boot-message" class="boot-message" role="status">正在调配颜料…</p>
+  </div>
+  <p id="game-status" class="sr-only" role="status" aria-live="polite"></p>
+
+  <dialog id="reset-dialog" aria-labelledby="reset-title">
+    <header><i class="dots" aria-hidden="true"></i><h2 id="reset-title">重新绘制？</h2></header>
+    <p>颜色与剩余步数将恢复到本关卡的初始状态。</p>
+    <label class="bonus-choice" hidden>
+      <input type="checkbox" checked>
+      <span></span>
+    </label>
+    <form method="dialog">
+      <button value="cancel" autofocus>取消</button>
+      <button value="reset">重新绘制</button>
+    </form>
+  </dialog>
+
+  <dialog id="info-dialog" aria-labelledby="info-title">
+    <header><i class="dots" aria-hidden="true"></i><h2 id="info-title"></h2></header>
+    <div id="info-help">
+      <ol class="steps">
+        <li><b>选颜料</b>点右侧颜料球，或按 <kbd>1</kbd>–<kbd>4</kbd></li>
+        <li><b>点色块</b>上下左右相连的同色色块会一起染色，每一步都能换起点</li>
+        <li><b>染成目标色</b>在步数内让所有可染色格变成目标色；灰格不可染色，也不能穿过</li>
+      </ol>
+      <div class="keys">
+        <span><kbd>R</kbd>重置</span><span><kbd>N</kbd>下一关</span><span><kbd>M</kbd>静音</span><span>左侧选择关卡</span>
+      </div>
+    </div>
+    <p id="info-pause">当前盘面与剩余步数已保留，关闭此窗口即可继续。</p>
+    <form method="dialog">
+      <button value="continue" autofocus>继续绘制</button>
+    </form>
+  </dialog>
+
+  <button id="sound-toggle" type="button" aria-label="静音（M）"
+    aria-pressed="false" title="静音（M）" disabled hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M3 9h4l5-4v14l-5-4H3z"/>
+      <path class="sound-waves" d="M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>
+      <path class="sound-cross" d="m16 9 6 6m0-6-6 6"/>
+    </svg>
+  </button>
+</body>
+</html>

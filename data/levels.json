@@ -1,0 +1,4397 @@
+{
+  "schemaVersion": 2,
+  "cols": 10,
+  "rows": 8,
+  "blockedColor": -1,
+  "colorIndex": {
+    "0": "蓝",
+    "1": "红",
+    "2": "黄",
+    "3": "青"
+  },
+  "levels": [
+    {
+      "id": "native-8-135750133",
+      "name": "世界原画 01",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 31405,
+        "MapId": 8,
+        "EntityId": 135750133,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m5",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 7,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 20,
+          "addStep": 1
+        },
+        {
+          "paintCount": 35,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 0, 1, 1, 0, 0, 1, 2, 2, 3],
+        [0, 2, 2, 3, 3, 3, 0, 3, 1, 3],
+        [1, 1, 0, 3, 1, 2, 3, 3, 1, 1],
+        [1, 0, 0, 2, 1, 2, 1, 0, 0, 1],
+        [1, 2, 3, 0, 0, 2, 1, 0, 2, 3],
+        [2, 3, 3, 1, 1, 3, 3, 0, 3, 1],
+        [0, 1, 2, 2, 3, 0, 1, 2, 2, 3],
+        [0, 3, 3, 2, 0, 0, 1, 2, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 3,
+          "color": 0
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900075",
+      "name": "世界原画 02",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56634,
+        "MapId": 8,
+        "EntityId": 148900075,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m20",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 1, 0, 0, 2, 2, 2, 2, 2, 2],
+        [2, 1, 1, 2, 2, 2, 2, 2, 2, 2],
+        [2, 0, 2, 2, 0, 3, 3, 0, 0, 2],
+        [2, 0, 2, 2, 3, 2, 2, 2, 3, 2],
+        [2, 1, 2, 2, 0, 2, 2, 2, 3, 2],
+        [2, 3, 0, 0, 3, 2, 1, 1, 0, 2],
+        [2, 2, 2, 2, 2, 2, 1, 2, 2, 2],
+        [2, 2, 3, 3, 3, 1, 0, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 4,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-111700264",
+      "name": "世界原画 03",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 11844,
+        "MapId": 8,
+        "EntityId": 111700264,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m2",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [1, 3, 2, 0, 1, 1, 2, 2, 0, 3],
+        [1, 3, 2, 0, 1, 1, 2, 2, 0, 1],
+        [1, 3, 2, 0, 0, 0, 0, 0, 0, 1],
+        [1, 3, 2, 2, 2, 2, 0, 0, 0, 1],
+        [1, 3, 3, 3, 3, 3, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 1]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        }
+      ]
+    },
+    {
+      "id": "native-8-111700375",
+      "name": "世界原画 04",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 11949,
+        "MapId": 8,
+        "EntityId": 111700375,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 3, 3, 3, 3, 3, 3, 3, 3, 1],
+        [2, 2, 2, 2, 0, 0, 0, 0, 3, 1],
+        [3, 0, 1, 2, 0, 0, 0, 0, 3, 1],
+        [3, 0, 1, 2, 2, 1, 0, 0, 3, 1],
+        [3, 0, 1, 1, 3, 2, 2, 0, 3, 1],
+        [3, 0, 1, 1, 1, 1, 2, 0, 3, 1],
+        [3, 0, 1, 1, 1, 1, 2, 2, 2, 2],
+        [3, 0, 0, 0, 0, 0, 0, 0, 0, 2]
+      ],
+      "solution": [
+        {
+          "row": 4,
+          "col": 5,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-111700378",
+      "name": "世界原画 05",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 11952,
+        "MapId": 8,
+        "EntityId": 111700378,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m3",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 1, 1, 1, 1, 1, 1, 1, 1, 3],
+        [3, 1, 1, 0, 1, 1, 0, 1, 1, 3],
+        [3, 1, 1, 1, 1, 1, 1, 1, 1, 3],
+        [3, 1, 1, 0, 1, 1, 0, 1, 1, 3],
+        [3, 2, 1, 1, 1, 1, 1, 1, 3, 3],
+        [3, 2, 3, 1, 1, 1, 1, 2, 3, 3],
+        [0, 2, 3, 3, 2, 3, 3, 2, 3, 0],
+        [0, 0, 3, 3, 2, 3, 3, 2, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-111700381",
+      "name": "世界原画 06",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 11955,
+        "MapId": 8,
+        "EntityId": 111700381,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m4",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 3, 1, 1, 0, 0, 0, 0, 0],
+        [3, 3, 1, 1, 2, 1, 1, 0, 0, 0],
+        [3, 1, 1, 2, 2, 2, 1, 1, 0, 0],
+        [1, 1, 2, 2, 3, 2, 2, 1, 1, 0],
+        [1, 1, 2, 2, 0, 2, 2, 1, 1, 3],
+        [0, 1, 1, 2, 1, 2, 1, 1, 3, 3],
+        [0, 0, 1, 1, 1, 1, 1, 3, 3, 3],
+        [0, 0, 0, 1, 1, 3, 3, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 3,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-111700384",
+      "name": "世界原画 07",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 11958,
+        "MapId": 8,
+        "EntityId": 111700384,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m5",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 0, 0, 0, 0, 0, 2, 2, 2, 2],
+        [0, 0, 0, 0, 0, 0, 0, 2, 2, 2],
+        [0, 0, 0, 0, 0, 0, 0, 0, 2, 2],
+        [0, 0, 3, 3, 0, 0, 0, 0, 0, 2],
+        [3, 3, 3, 0, 3, 3, 0, 0, 0, 0],
+        [3, 1, 3, 3, 3, 3, 3, 2, 3, 3],
+        [3, 3, 2, 3, 3, 3, 0, 3, 3, 3],
+        [3, 3, 3, 3, 3, 3, 3, 3, 1, 3]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-111900001",
+      "name": "世界原画 08",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 12916,
+        "MapId": 8,
+        "EntityId": 111900001,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 0, 0, 1, 1, 3, 3, 3, 1],
+        [0, 0, 0, 0, 1, 3, 3, 2, 3, 1],
+        [0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 3, 0, 1, 1, 3, 3, 1, 1],
+        [3, 3, 3, 0, 3, 3, 3, 3, 3, 1],
+        [1, 3, 3, 0, 3, 1, 3, 3, 2, 3],
+        [1, 1, 3, 0, 1, 1, 3, 3, 3, 3],
+        [1, 1, 0, 0, 0, 1, 1, 3, 3, 1]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-135750130",
+      "name": "世界原画 09",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 31402,
+        "MapId": 8,
+        "EntityId": 135750130,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m4",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "灰色方块不可染色。",
+      "moves": 5,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, -1, 1, 0, 1, 1, 1],
+        [1, 0, 0, 0, -1, 0, 0, 0, 0, 0],
+        [1, 0, 1, 1, 2, 2, 2, 2, 0, 1],
+        [1, 0, 1, 2, -1, -1, 2, 2, -1, -1],
+        [-1, -1, 2, 2, -1, -1, 2, 1, 0, 0],
+        [0, 0, 2, 2, 2, 2, 1, 1, 0, 1],
+        [0, 0, 0, 0, 0, -1, 0, 0, 1, 1],
+        [0, 0, 0, 0, 0, -1, 0, 1, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-135750135",
+      "name": "世界原画 10",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 31407,
+        "MapId": 8,
+        "EntityId": 135750135,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m6",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "灰色方块不可染色。",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 2, 3, 3, 3, 3, 3, 3, 1],
+        [1, -1, 2, -1, -1, -1, -1, -1, -1, 1],
+        [1, -1, 2, 0, 0, 0, 0, 2, -1, 1],
+        [1, -1, 2, 0, 2, 2, 0, 2, -1, 1],
+        [1, -1, 2, 0, 2, 2, 0, 2, -1, 1],
+        [1, -1, 2, 0, 0, 0, 0, 2, -1, 1],
+        [1, -1, -1, -1, -1, -1, -1, 2, -1, 1],
+        [1, 3, 3, 3, 3, 3, 3, 2, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900038",
+      "name": "世界原画 11",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56611,
+        "MapId": 8,
+        "EntityId": 148900038,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+        [2, 0, 1, 1, 1, 1, 1, 1, 0, 2],
+        [2, 0, 1, 2, 1, 2, 2, 1, 0, 2],
+        [2, 0, 1, 2, 2, 1, 2, 1, 0, 2],
+        [2, 0, 1, 1, 1, 1, 1, 1, 0, 2],
+        [2, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900040",
+      "name": "世界原画 12",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56612,
+        "MapId": 8,
+        "EntityId": 148900040,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m2",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 3, 2, 3, 2, 0, 0, 3, 1],
+        [1, 1, 1, 2, 1, 2, 0, 0, 3, 1],
+        [2, 2, 2, 2, 0, 2, 0, 2, 3, 1],
+        [1, 2, 0, 0, 0, 0, 0, 0, 3, 1],
+        [2, 2, 2, 0, 2, 0, 2, 0, 3, 1],
+        [2, 2, 0, 0, 2, 0, 2, 0, 3, 1],
+        [1, 3, 3, 0, 3, 0, 2, 0, 1, 1],
+        [1, 1, 1, 0, 2, 0, 2, 0, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 6,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900041",
+      "name": "世界原画 13",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56613,
+        "MapId": 8,
+        "EntityId": 148900041,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m3",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 1, 1, 1, 1, 1],
+        [2, 2, 2, 2, 2, 1, 1, 1, 1, 1],
+        [2, 2, 0, 0, 0, 0, 0, 0, 1, 1],
+        [2, 2, 1, 1, 1, 2, 2, 2, 1, 1],
+        [0, 0, 1, 1, 1, 2, 2, 2, 0, 0],
+        [0, 0, 2, 2, 2, 1, 1, 1, 0, 0],
+        [0, 0, 2, 2, 2, 1, 1, 1, 0, 0],
+        [0, 0, 2, 2, 2, 1, 1, 1, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900060",
+      "name": "世界原画 14",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56619,
+        "MapId": 8,
+        "EntityId": 148900060,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m5",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 0, 0, 0, 0, 3, 3, 0, 1, 1],
+        [0, 2, 1, 1, 0, 2, 2, 0, 1, 1],
+        [0, 2, 1, 1, 0, 2, 2, 0, 3, 3],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [3, 3, 1, 1, 0, 3, 3, 2, 1, 1],
+        [3, 3, 2, 2, 0, 1, 1, 2, 1, 1],
+        [1, 1, 2, 2, 0, 1, 1, 3, 3, 3],
+        [1, 1, 0, 0, 0, 0, 0, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900061",
+      "name": "世界原画 15",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56620,
+        "MapId": 8,
+        "EntityId": 148900061,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m6",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 1, 1, 1, 1, 1, 2, 0, 0, 2],
+        [2, 1, 0, 0, 0, 1, 2, 0, 0, 2],
+        [2, 1, 0, 2, 0, 1, 2, 2, 2, 2],
+        [2, 1, 0, 2, 0, 1, 2, 2, 2, 2],
+        [2, 1, 0, 0, 0, 1, 2, 0, 0, 2],
+        [2, 1, 1, 1, 1, 1, 2, 0, 0, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900062",
+      "name": "世界原画 16",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56621,
+        "MapId": 8,
+        "EntityId": 148900062,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m7",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 1, 1, 3, 3, 3, 1, 1, 2],
+        [2, 1, 1, 3, 3, 0, 3, 3, 1, 1],
+        [1, 1, 3, 3, 0, 0, 0, 3, 3, 1],
+        [1, 3, 3, 0, 0, 3, 0, 0, 3, 3],
+        [1, 3, 0, 0, 3, 2, 3, 0, 0, 3],
+        [1, 3, 3, 0, 0, 3, 0, 0, 3, 3],
+        [1, 1, 3, 3, 0, 0, 0, 3, 3, 2],
+        [2, 1, 1, 3, 3, 0, 3, 3, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 5,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900063",
+      "name": "世界原画 17",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56622,
+        "MapId": 8,
+        "EntityId": 148900063,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m8",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [3, 3, 3, 3, 3, 2, 2, 1, 1, 1],
+        [3, 0, 0, 0, 0, 3, 3, 3, 2, 2],
+        [3, 2, 3, 3, 3, 3, 2, 2, 2, 2],
+        [2, 2, 2, 2, 3, 3, 3, 3, 3, 3],
+        [2, 2, 3, 3, 3, 0, 0, 0, 0, 3],
+        [1, 1, 1, 2, 2, 3, 3, 3, 3, 3],
+        [0, 0, 0, 0, 0, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 5,
+          "color": 2
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "color": 1
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900064",
+      "name": "世界原画 18",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56623,
+        "MapId": 8,
+        "EntityId": 148900064,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m9",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 1, 2, 1, 2, 2, 1, 2, 2],
+        [2, 0, 0, 0, 1, 0, 0, 0, 0, 2],
+        [2, 2, 1, 2, 1, 2, 2, 1, 2, 2],
+        [2, 2, 1, 2, 1, 2, 2, 1, 2, 2],
+        [2, 2, 1, 2, 1, 2, 2, 1, 2, 2],
+        [2, 0, 0, 0, 0, 0, 0, 1, 0, 2],
+        [2, 2, 1, 2, 1, 2, 2, 1, 2, 2],
+        [2, 2, 1, 2, 1, 2, 2, 1, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 5,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900065",
+      "name": "世界原画 19",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56624,
+        "MapId": 8,
+        "EntityId": 148900065,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m10",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+        [2, 2, 2, 1, 1, 1, 1, 1, 2, 2],
+        [0, 0, 2, 2, 2, 1, 1, 2, 2, 2],
+        [0, 0, 2, 2, 2, 1, 2, 2, 2, 0],
+        [0, 2, 2, 3, 2, 2, 2, 0, 0, 0],
+        [2, 2, 3, 3, 3, 2, 2, 2, 0, 0],
+        [2, 3, 3, 3, 3, 3, 2, 2, 2, 0],
+        [3, 3, 3, 3, 3, 3, 3, 2, 2, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900066",
+      "name": "世界原画 20",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56625,
+        "MapId": 8,
+        "EntityId": 148900066,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m11",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 0, 0, 1, 1, 0, 0, 2, 2],
+        [0, 2, 2, 2, 1, 1, 2, 2, 2, 0],
+        [0, 2, 0, 1, 0, 0, 1, 0, 2, 0],
+        [1, 1, 1, 1, 2, 2, 1, 1, 2, 2],
+        [2, 2, 1, 1, 2, 2, 1, 1, 1, 1],
+        [0, 2, 0, 1, 0, 0, 1, 0, 2, 0],
+        [0, 2, 2, 2, 1, 1, 2, 2, 2, 0],
+        [2, 2, 0, 0, 1, 1, 0, 0, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 3,
+          "color": 0
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900067",
+      "name": "世界原画 21",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56626,
+        "MapId": 8,
+        "EntityId": 148900067,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m12",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 0, 0, 2, 3, 3, 2, 0, 0, 0],
+        [1, 1, 0, 2, 3, 3, 2, 0, 0, 1],
+        [1, 1, 1, 2, 3, 3, 2, 0, 1, 1],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 1, 2, 3, 3, 2, 1, 1, 0],
+        [0, 0, 0, 2, 3, 3, 2, 1, 0, 0],
+        [0, 0, 2, 2, 3, 3, 2, 0, 0, 0],
+        [0, 2, 2, 2, 3, 3, 2, 0, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900068",
+      "name": "世界原画 22",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56627,
+        "MapId": 8,
+        "EntityId": 148900068,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m13",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [3, 3, 1, 1, 0, 0, 1, 1, 3, 3],
+        [3, 3, 3, 3, 0, 0, 3, 3, 3, 3],
+        [2, 2, 2, 2, 0, 0, 2, 2, 2, 2],
+        [2, 2, 2, 2, 0, 0, 2, 2, 2, 2],
+        [1, 2, 0, 0, 0, 0, 0, 0, 2, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 3,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900069",
+      "name": "世界原画 23",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56628,
+        "MapId": 8,
+        "EntityId": 148900069,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m14",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 2, 1, 1, 1, 1, 1, 1, 2, 2],
+        [0, 0, 3, 3, 3, 3, 3, 3, 0, 0],
+        [2, 2, 3, 1, 1, 1, 1, 3, 2, 2],
+        [2, 2, 3, 1, 1, 1, 1, 3, 2, 2],
+        [0, 0, 3, 3, 3, 3, 3, 3, 0, 0],
+        [2, 2, 1, 1, 1, 1, 1, 1, 2, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 2,
+          "color": 1
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900071",
+      "name": "世界原画 24",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56630,
+        "MapId": 8,
+        "EntityId": 148900071,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m16",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 3, 3, 0, 0, 0, 2, 2, 1, 1],
+        [1, 0, 3, 3, 0, 0, 2, 2, 1, 1],
+        [1, 1, 0, 3, 3, 0, 2, 2, 3, 3],
+        [1, 1, 1, 3, 3, 3, 2, 2, 0, 0],
+        [0, 0, 2, 2, 2, 2, 2, 2, 1, 1],
+        [0, 0, 2, 3, 3, 0, 0, 0, 1, 1],
+        [0, 2, 2, 3, 0, 0, 0, 3, 3, 0],
+        [0, 2, 3, 3, 3, 3, 3, 3, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 6,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900072",
+      "name": "世界原画 25",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56631,
+        "MapId": 8,
+        "EntityId": 148900072,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m17",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 0, 2, 2, 1, 2, 1, 2, 1, 2],
+        [2, 2, 0, 2, 2, 2, 2, 1, 2, 2],
+        [2, 2, 2, 3, 2, 2, 1, 2, 1, 2],
+        [2, 2, 2, 2, 0, 2, 2, 2, 2, 2],
+        [2, 2, 2, 2, 2, 0, 2, 2, 1, 2],
+        [2, 2, 2, 2, 2, 2, 0, 2, 2, 2],
+        [2, 2, 2, 2, 2, 2, 2, 0, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900073",
+      "name": "世界原画 26",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56632,
+        "MapId": 8,
+        "EntityId": 148900073,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m18",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 2, 2, 1, 2, 2, 2, 1, 2, 2],
+        [2, 2, 3, 2, 2, 2, 3, 2, 2, 2],
+        [2, 1, 2, 2, 2, 1, 2, 2, 0, 2],
+        [1, 2, 2, 2, 1, 2, 2, 0, 2, 2],
+        [2, 2, 2, 1, 2, 2, 0, 2, 2, 1],
+        [2, 2, 1, 2, 2, 0, 2, 2, 3, 2],
+        [2, 1, 2, 2, 0, 2, 2, 1, 2, 2],
+        [2, 2, 2, 2, 2, 2, 3, 2, 2, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900074",
+      "name": "世界原画 27",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56633,
+        "MapId": 8,
+        "EntityId": 148900074,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m19",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 0, 1, 0, 0, 2, 0, 0, 1, 0],
+        [0, 0, 0, 3, 0, 0, 0, 3, 0, 0],
+        [0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+        [0, 0, 2, 0, 0, 1, 0, 0, 2, 0],
+        [0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+        [0, 0, 0, 3, 0, 0, 0, 3, 0, 0],
+        [0, 0, 1, 0, 0, 2, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 5,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900076",
+      "name": "世界原画 28",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56635,
+        "MapId": 8,
+        "EntityId": 148900076,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m21",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 1, 1, 0, 2, 2, 2, 2, 0, 2],
+        [2, 1, 1, 0, 2, 2, 2, 2, 0, 2],
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [2, 1, 1, 0, 3, 3, 3, 3, 0, 2],
+        [2, 1, 1, 0, 2, 3, 3, 3, 0, 2],
+        [2, 1, 1, 0, 2, 2, 3, 3, 0, 2],
+        [2, 1, 1, 0, 2, 2, 2, 3, 0, 2],
+        [2, 1, 1, 0, 2, 2, 2, 2, 0, 2]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900077",
+      "name": "世界原画 29",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56636,
+        "MapId": 8,
+        "EntityId": 148900077,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m22",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 1, 2, 2, 2, 0, 3, 2, 0, 2],
+        [0, 0, 0, 0, 0, 0, 3, 2, 0, 2],
+        [2, 1, 0, 1, 1, 1, 3, 1, 0, 2],
+        [2, 1, 0, 1, 2, 2, 3, 1, 0, 2],
+        [2, 1, 0, 1, 2, 3, 3, 1, 0, 2],
+        [2, 2, 0, 2, 2, 3, 2, 1, 0, 2],
+        [2, 2, 0, 0, 0, 3, 0, 0, 0, 2],
+        [3, 3, 3, 3, 3, 3, 2, 1, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 6,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900078",
+      "name": "世界原画 30",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56637,
+        "MapId": 8,
+        "EntityId": 148900078,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m23",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 0, 3, 3, 3, 3],
+        [1, 0, 0, 0, 1, 0, 3, 0, 0, 3],
+        [1, 0, 2, 2, 2, 2, 2, 2, 2, 3],
+        [1, 1, 1, 1, 1, 0, 3, 3, 3, 3],
+        [0, 0, 2, 0, 0, 0, 0, 0, 2, 0],
+        [0, 0, 2, 0, 0, 0, 0, 0, 2, 0],
+        [0, 0, 2, 2, 2, 2, 2, 2, 2, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900079",
+      "name": "世界原画 31",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56638,
+        "MapId": 8,
+        "EntityId": 148900079,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m24",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 2,
+      "availableColors": [
+        0,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+        [2, 0, 3, 3, 3, 3, 3, 3, 0, 2],
+        [2, 0, 3, 0, 0, 0, 0, 3, 0, 2],
+        [2, 0, 3, 0, 3, 3, 3, 3, 0, 2],
+        [2, 0, 3, 0, 0, 0, 0, 0, 0, 2],
+        [2, 0, 3, 2, 2, 2, 2, 2, 2, 2],
+        [2, 0, 0, 3, 3, 3, 3, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900080",
+      "name": "世界原画 32",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56639,
+        "MapId": 8,
+        "EntityId": 148900080,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m25",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 2,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 0, 0, 0, 2, 2, 0, 0, 0, 2],
+        [2, 0, 1, 0, 2, 2, 0, 1, 0, 2],
+        [2, 0, 1, 0, 2, 2, 0, 1, 0, 2],
+        [2, 0, 1, 0, 2, 2, 0, 1, 0, 2],
+        [2, 0, 1, 0, 2, 2, 0, 1, 0, 2],
+        [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900081",
+      "name": "世界原画 33",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56640,
+        "MapId": 8,
+        "EntityId": 148900081,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m26",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+        [2, 1, 3, 3, 3, 3, 3, 3, 1, 2],
+        [2, 1, 3, 0, 0, 0, 0, 3, 1, 2],
+        [2, 1, 3, 0, 0, 0, 0, 3, 1, 2],
+        [2, 1, 3, 3, 3, 3, 3, 3, 1, 2],
+        [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 1,
+          "color": 2
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900106",
+      "name": "世界原画 34",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56650,
+        "MapId": 8,
+        "EntityId": 148900106,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m7",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 3, 3, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 1, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 1, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 3, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 3, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 1, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 1, 3, 1, 0, 0, 3, 1, 1],
+        [0, 3, 3, 3, 1, 0, 0, 3, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-148900109",
+      "name": "世界原画 35",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 56652,
+        "MapId": 8,
+        "EntityId": 148900109,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m27",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 1, 1, 2, 2, 1, 1, 2, 2],
+        [2, 0, 1, 0, 1, 1, 1, 1, 1, 2],
+        [0, 0, 0, 0, 0, 1, 3, 1, 3, 1],
+        [0, 0, 0, 0, 0, 3, 3, 3, 3, 3],
+        [1, 0, 0, 0, 1, 3, 3, 3, 3, 3],
+        [2, 1, 0, 1, 1, 1, 3, 3, 3, 2],
+        [2, 2, 1, 1, 1, 1, 1, 3, 2, 2],
+        [2, 2, 2, 2, 1, 1, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-169750050",
+      "name": "世界原画 36",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 75237,
+        "MapId": 8,
+        "EntityId": 169750050,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 1, 1, 3, 3, 3],
+        [1, 3, 2, 2, 2, 2, 2, 2, 3, 3],
+        [1, 3, 2, 0, 0, 0, 0, 2, 0, 0],
+        [1, 3, 2, 0, 3, 3, 1, 2, 3, 0],
+        [1, 3, 2, 0, 3, 3, 1, 2, 3, 0],
+        [1, 1, 2, 0, 1, 1, 1, 2, 3, 0],
+        [3, 3, 2, 2, 2, 2, 2, 2, 3, 0],
+        [3, 3, 3, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 2,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        }
+      ]
+    },
+    {
+      "id": "native-8-169750054",
+      "name": "世界原画 37",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 75241,
+        "MapId": 8,
+        "EntityId": 169750054,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m2",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 1, 3, 3, 0, 0, 3, 3, 1, 3],
+        [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [3, 0, 0, 0, 2, 0, 0, 2, 0, 3],
+        [3, 0, 0, 0, 2, 0, 0, 2, 0, 3],
+        [3, 0, 0, 0, 2, 0, 0, 2, 0, 3],
+        [3, 3, 0, 0, 0, 0, 0, 0, 3, 3],
+        [3, 1, 1, 1, 3, 3, 1, 1, 1, 3]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-8-169750057",
+      "name": "世界原画 38",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 75244,
+        "MapId": 8,
+        "EntityId": 169750057,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m3",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 0, 0, 0, 1, 0, 0, 0, 0],
+        [3, 2, 2, 2, 2, 2, 2, 2, 2, 0],
+        [0, 1, 0, 0, 0, 1, 0, 0, 2, 0],
+        [0, 1, 0, 0, 1, 1, 1, 1, 2, 1],
+        [2, 1, 2, 2, 2, 2, 0, 0, 2, 0],
+        [0, 1, 0, 0, 2, 0, 0, 0, 2, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 3],
+        [0, 0, 0, 0, 2, 0, 0, 0, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-903-166750026",
+      "name": "世界原画 39",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 133799,
+        "MapId": 903,
+        "EntityId": 166750026,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m3",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 2, 2, 2, 0, 0, 2, 2, 2, 0],
+        [2, 2, 2, 0, 0, 0, 0, 2, 2, 2],
+        [1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [0, 1, 1, 1, 0, 0, 1, 1, 1, 0],
+        [0, 0, 0, 1, 1, 1, 1, 0, 0, 0],
+        [2, 2, 2, 0, 1, 1, 0, 2, 2, 2],
+        [0, 0, 3, 1, 1, 1, 1, 3, 0, 0],
+        [3, 3, 3, 3, 1, 1, 3, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "native-903-166750030",
+      "name": "世界原画 40",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 133803,
+        "MapId": 903,
+        "EntityId": 166750030,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m4",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "灰色方块不可染色。",
+      "moves": 5,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 0, 1, 1, 1, 3, 3, 3, 2],
+        [1, -1, -1, -1, -1, 1, 0, 0, 0, 0],
+        [3, 3, 3, 3, 3, 3, 3, 3, -1, -1],
+        [3, 3, 0, 0, -1, -1, 1, 1, 1, -1],
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, -1],
+        [3, 3, 3, 1, 1, 1, 0, 0, 1, 1],
+        [3, 0, 0, -1, 0, 1, -1, -1, -1, 1],
+        [2, 1, 1, 3, 1, 1, 0, 1, 0, 1]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-903-166750032",
+      "name": "世界原画 41",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 133805,
+        "MapId": 903,
+        "EntityId": 166750032,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m5",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "灰色方块不可染色。",
+      "moves": 7,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 0, 0, 0, 3, -1, 1, 0, 3, 1],
+        [1, 0, -1, 1, -1, 1, 1, -1, 0, -1],
+        [-1, -1, 1, 2, 2, 0, 2, 3, 1, 1],
+        [1, 0, -1, 2, 1, 0, 0, 3, 3, 1],
+        [2, 3, 3, 3, 3, -1, 0, 2, 2, 3],
+        [2, 1, 1, -1, 1, 1, 2, 3, 3, -1],
+        [3, 1, -1, -1, 2, 2, -1, 0, 0, 1],
+        [2, 2, 2, -1, -1, 3, -1, -1, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 5,
+          "color": 2
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "color": 3
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-903-166750035",
+      "name": "世界原画 42",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 133808,
+        "MapId": 903,
+        "EntityId": 166750035,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m6",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "灰色方块不可染色。",
+      "moves": 5,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, -1, -1, 3, 3, 3, 3, 0, 0, 2],
+        [2, 0, 0, 1, 1, 1, 1, 2, 0, 2],
+        [2, 0, 2, 3, 3, 3, 3, 0, 0, 2],
+        [2, 0, 0, 1, 1, 1, 1, 2, 2, 2],
+        [2, 2, 2, 3, 3, 3, 3, 0, 0, 2],
+        [2, 0, 0, 1, 1, 1, 1, 2, 0, 2],
+        [2, 0, 2, 3, 3, 3, 3, 0, 0, 2],
+        [2, 0, 0, 1, 1, 1, 1, -1, -1, 2]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-903-169000959",
+      "name": "世界原画 43",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 134459,
+        "MapId": 903,
+        "EntityId": 169000959,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "灰色方块不可染色。",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [2, 2, 2, 2, 3, 3, 3, 3, 1, -1],
+        [1, 1, 1, 0, 0, 0, 0, 3, 1, -1],
+        [1, 2, 1, 2, 3, 2, 2, 3, 1, -1],
+        [1, -1, 1, -1, 3, -1, 2, 3, 1, -1],
+        [1, -1, 1, 2, 3, -1, 3, 3, 1, -1],
+        [1, -1, 1, 2, 2, -1, 2, 2, 2, -1],
+        [1, -1, -1, -1, -1, -1, 0, 0, 2, 2],
+        [1, 1, 1, 0, 0, 0, 0, 0, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "color": 2
+        }
+      ]
+    },
+    {
+      "id": "native-903-169750215",
+      "name": "世界原画 44",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 134498,
+        "MapId": 903,
+        "EntityId": 169750215,
+        "BlueprintType": "Gameplay8",
+        "Name": "TsEntity_玩法_生命点_30m2",
+        "configPath": "ComponentsData.InteractComponent.Options[0].Type.Actions[3].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "world",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": true,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 2, 1, 1, 2, 1, 1, 0, 1],
+        [0, 0, 2, 0, 0, 2, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 2, 1, 1, 0, 1],
+        [0, 0, 0, 0, 0, 2, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 2, 1, 1, 0, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 2, 1, 1, 0, 1],
+        [1, 1, 2, 1, 1, 2, 1, 1, 0, 1]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 1
+        }
+      ]
+    },
+    {
+      "id": "native-8-204700002",
+      "name": "活动 1 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86524,
+        "MapId": 8,
+        "EntityId": 204700002,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 0],
+        [2, 2, 3, 2, 3, 2, 3, 2, 3, 2],
+        [3, 1, 3, 1, 3, 1, 3, 1, 3, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [3, 1, 3, 1, 3, 1, 3, 1, 3, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [3, 1, 3, 1, 3, 1, 3, 1, 3, 1],
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ],
+      "activity": {
+        "id": 1,
+        "groupId": 1,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700016",
+      "name": "活动 1 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86538,
+        "MapId": 8,
+        "EntityId": 204700016,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点15",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 1, 1, 0, 1, 1, 0, 1, 1, 0],
+        [3, 1, 1, 3, 1, 1, 3, 1, 1, 3],
+        [2, 2, 2, 2, 0, 0, 2, 2, 2, 2],
+        [3, 1, 1, 3, 0, 0, 3, 1, 1, 3],
+        [0, 1, 1, 0, 0, 0, 0, 1, 1, 0],
+        [2, 2, 2, 2, 0, 0, 2, 2, 2, 2],
+        [0, 1, 1, 0, 1, 1, 0, 1, 1, 0],
+        [3, 1, 1, 3, 1, 1, 3, 1, 1, 3]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 4,
+          "color": 2
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ],
+      "activity": {
+        "id": 2,
+        "groupId": 1,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700003",
+      "name": "活动 1 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86525,
+        "MapId": 8,
+        "EntityId": 204700003,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点2",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "灰色方块不可染色。",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 0],
+        [2, 2, 3, 2, 3, 2, 3, 2, 3, 2],
+        [3, 1, 3, 1, 3, 1, 3, 1, 3, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, -1],
+        [3, 1, 3, 1, 3, 1, 3, 1, 3, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, -1],
+        [3, 1, 3, 1, 3, 1, 3, 1, 3, 1],
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 1,
+          "color": 3
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ],
+      "activity": {
+        "id": 3,
+        "groupId": 1,
+        "difficulty": 2
+      }
+    },
+    {
+      "id": "native-8-204700004",
+      "name": "活动 2 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86526,
+        "MapId": 8,
+        "EntityId": 204700004,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点3",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 0, 1, 0, 1, 0],
+        [1, 1, 3, 3, 1, 0, 1, 0, 1, 0],
+        [1, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [1, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [1, 1, 3, 3, 1, 0, 1, 0, 1, 0],
+        [1, 1, 1, 1, 1, 0, 1, 0, 1, 0]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 1
+        }
+      ],
+      "activity": {
+        "id": 4,
+        "groupId": 2,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700017",
+      "name": "活动 2 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86539,
+        "MapId": 8,
+        "EntityId": 204700017,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点16",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 0, 1, 0, 1, 0],
+        [1, 1, 3, 3, 1, 0, 1, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+        [2, 0, 2, 3, 2, 2, 2, 2, 0, 2],
+        [2, 0, 2, 3, 2, 2, 2, 2, 0, 2],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+        [1, 1, 3, 3, 1, 0, 1, 0, 1, 0],
+        [1, 1, 1, 1, 1, 0, 1, 0, 1, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 5,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 1
+        }
+      ],
+      "activity": {
+        "id": 5,
+        "groupId": 2,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700005",
+      "name": "活动 2 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86527,
+        "MapId": 8,
+        "EntityId": 204700005,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点4",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "灰色方块不可染色。",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 0, 1, 0, 1, 0],
+        [1, 1, 3, 3, 1, 0, 1, 0, 1, 0],
+        [1, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [-1, 3, 2, 1, 2, 1, 2, 1, 2, 1],
+        [-1, 3, 1, 2, 1, 2, 1, 2, 1, 2],
+        [1, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [1, 1, 3, 3, 1, 0, 1, 0, 1, 0],
+        [1, 1, 1, 1, 1, 0, 1, 0, 1, 0]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 1
+        }
+      ],
+      "activity": {
+        "id": 6,
+        "groupId": 2,
+        "difficulty": 2
+      }
+    },
+    {
+      "id": "native-8-204700006",
+      "name": "活动 3 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86528,
+        "MapId": 8,
+        "EntityId": 204700006,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点5",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 0, 2, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 2, 0, 0, 0, 1, 1, 1],
+        [1, 1, 0, 2, 1, 1, 1, 1, 1, 0],
+        [0, 3, 3, 2, 0, 0, 0, 0, 1, 0],
+        [2, 3, 3, 3, 3, 3, 3, 2, 1, 0],
+        [1, 1, 0, 2, 1, 1, 1, 1, 1, 0],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 2, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 1,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 1
+        }
+      ],
+      "activity": {
+        "id": 7,
+        "groupId": 3,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700018",
+      "name": "活动 3 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86540,
+        "MapId": 8,
+        "EntityId": 204700018,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点17",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 1, 0, 1],
+        [0, 0, 3, 0, 1, 1, 0, 1, 0, 1],
+        [1, 1, 3, 0, 2, 2, 0, 2, 2, 2],
+        [1, 1, 3, 3, 3, 3, 0, 3, 3, 3],
+        [1, 1, 3, 0, 0, 0, 2, 0, 0, 1],
+        [3, 3, 3, 0, 1, 1, 2, 1, 0, 1],
+        [1, 1, 1, 0, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 6,
+          "color": 2
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "color": 1
+        }
+      ],
+      "activity": {
+        "id": 8,
+        "groupId": 3,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700007",
+      "name": "活动 3 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86529,
+        "MapId": 8,
+        "EntityId": 204700007,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点6",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "灰色方块不可染色。",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 1,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 0, 0, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 0, 0, 1, 1, 1, 1],
+        [1, 3, 3, 3, 2, 3, 1, 0, 0, 1],
+        [1, 2, 2, 2, 2, 3, 1, 0, 0, 1],
+        [1, 0, 0, 1, 2, 0, 1, 0, 0, 1],
+        [1, 0, 0, 1, 2, 2, -1, 2, 2, 1],
+        [1, 0, 0, 1, 2, 3, 3, 3, 3, 1],
+        [1, 0, 0, 1, 0, 0, 1, 0, 0, 1]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 3,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 1
+        }
+      ],
+      "activity": {
+        "id": 9,
+        "groupId": 3,
+        "difficulty": 2
+      }
+    },
+    {
+      "id": "native-8-204700008",
+      "name": "活动 4 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86530,
+        "MapId": 8,
+        "EntityId": 204700008,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点7",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 2, 2, 3, 3, 2, 2, 3, 3],
+        [3, 2, 2, 0, 2, 2, 0, 2, 2, 3],
+        [2, 2, 0, 0, 1, 1, 0, 0, 2, 2],
+        [2, 0, 0, 1, 1, 1, 1, 0, 0, 2],
+        [3, 2, 0, 1, 1, 1, 1, 0, 2, 3],
+        [3, 3, 2, 0, 1, 1, 0, 2, 3, 3],
+        [3, 3, 3, 2, 0, 0, 2, 3, 3, 3],
+        [3, 3, 3, 3, 2, 2, 3, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 2,
+          "col": 4,
+          "color": 0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        }
+      ],
+      "activity": {
+        "id": 10,
+        "groupId": 4,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700019",
+      "name": "活动 4 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86541,
+        "MapId": 8,
+        "EntityId": 204700019,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点18",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 1, 3, 3, 3, 3, 1, 3, 3],
+        [3, 1, 1, 1, 0, 0, 1, 1, 1, 3],
+        [3, 1, 2, 2, 0, 0, 2, 2, 1, 3],
+        [1, 1, 2, 2, 0, 0, 2, 2, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1],
+        [0, 3, 3, 1, 0, 0, 1, 3, 3, 0],
+        [0, 3, 3, 3, 0, 0, 3, 3, 3, 0],
+        [0, 3, 3, 3, 0, 0, 3, 3, 3, 0]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        }
+      ],
+      "activity": {
+        "id": 11,
+        "groupId": 4,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700009",
+      "name": "活动 4 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86531,
+        "MapId": 8,
+        "EntityId": 204700009,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点8",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "灰色方块不可染色。",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 2, 2, 3, 3, 2, 2, 3, 3],
+        [3, 2, 2, 0, 2, 2, 0, 2, 2, 3],
+        [2, 2, 0, 0, 1, 1, 0, 0, 2, 2],
+        [2, 0, 0, 1, -1, -1, 1, 0, 0, 2],
+        [2, 2, 0, 1, -1, -1, 1, 0, 2, 2],
+        [3, 2, 2, 0, 1, 1, 0, 2, 2, 3],
+        [3, 3, 2, 2, 0, 0, 2, 2, 3, 3],
+        [3, 3, 3, 2, 2, 2, 2, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "color": 3
+        }
+      ],
+      "activity": {
+        "id": 12,
+        "groupId": 4,
+        "difficulty": 2
+      }
+    },
+    {
+      "id": "native-8-204700010",
+      "name": "活动 5 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86532,
+        "MapId": 8,
+        "EntityId": 204700010,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点9",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [0, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [0, 2, 3, 0, 3, 0, 3, 0, 3, 2],
+        [0, 2, 0, 0, 0, 0, 0, 0, 0, 2],
+        [0, 2, 1, 0, 1, 0, 1, 0, 1, 2],
+        [0, 2, 2, 2, 2, 2, 2, 2, 1, 2],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+        [3, 3, 3, 2, 2, 2, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 1,
+          "color": 1
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "color": 0
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "color": 3
+        }
+      ],
+      "activity": {
+        "id": 13,
+        "groupId": 5,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700020",
+      "name": "活动 5 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86542,
+        "MapId": 8,
+        "EntityId": 204700020,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点19",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [0, 0, 2, 0, 2, 2, 2, 0, 2, 0],
+        [0, 1, 2, 1, 2, 1, 2, 1, 2, 0],
+        [0, 1, 2, 3, 3, 3, 3, 3, 2, 0],
+        [0, 1, 2, 1, 2, 1, 2, 1, 2, 0],
+        [0, 1, 2, 1, 2, 1, 2, 1, 2, 0],
+        [0, 0, 2, 2, 2, 0, 2, 2, 2, 0],
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        }
+      ],
+      "activity": {
+        "id": 14,
+        "groupId": 5,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700011",
+      "name": "活动 5 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86533,
+        "MapId": 8,
+        "EntityId": 204700011,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点10",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "灰色方块不可染色。",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 3,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [3, 0, 2, 1, 0, 1, 2, 0, 0, 3],
+        [3, 0, 2, 1, 0, 1, 2, 0, 0, 3],
+        [2, 2, 2, 2, 2, 1, 2, 2, 2, 2],
+        [3, 1, 2, 1, 2, -1, 2, 1, 2, 3],
+        [3, 0, 0, 1, 2, 0, 1, 1, 0, 3],
+        [3, 0, 0, 1, 2, 0, 1, 1, 0, 3],
+        [3, 3, 3, 3, 2, 3, 3, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 2,
+          "color": 1
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "color": 1
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": 0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "color": 3
+        }
+      ],
+      "activity": {
+        "id": 15,
+        "groupId": 5,
+        "difficulty": 2
+      }
+    },
+    {
+      "id": "native-8-204700012",
+      "name": "活动 6 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86534,
+        "MapId": 8,
+        "EntityId": 204700012,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点11",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 2, 2, 1, 0, 0, 0],
+        [0, 0, 0, 1, 2, 2, 1, 0, 0, 0],
+        [0, 3, 0, 0, 1, 1, 0, 0, 3, 0],
+        [0, 3, 3, 0, 3, 3, 0, 3, 3, 0],
+        [0, 0, 3, 3, 3, 3, 3, 3, 0, 0],
+        [0, 0, 0, 0, 3, 3, 0, 0, 0, 0],
+        [0, 0, 0, 0, 3, 3, 0, 0, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "color": 0
+        }
+      ],
+      "activity": {
+        "id": 16,
+        "groupId": 6,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700021",
+      "name": "活动 6 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86543,
+        "MapId": 8,
+        "EntityId": 204700021,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点20",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 2],
+        [3, 3, 1, 1, 0, 0, 0, 1, 1, 3],
+        [3, 3, 1, 3, 0, 3, 0, 3, 1, 3],
+        [0, 2, 1, 2, 0, 2, 0, 2, 1, 2],
+        [3, 3, 1, 3, 0, 3, 0, 3, 1, 3],
+        [3, 3, 1, 1, 0, 0, 0, 1, 1, 3],
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 2],
+        [0, 2, 0, 2, 0, 2, 0, 2, 0, 2]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 4,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": 0
+        }
+      ],
+      "activity": {
+        "id": 17,
+        "groupId": 6,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700013",
+      "name": "活动 6 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86535,
+        "MapId": 8,
+        "EntityId": 204700013,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点12",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "灰色方块不可染色。",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 0,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [0, 0, 0, 3, 1, 2, 2, 0, 0, 0],
+        [0, 0, 0, 3, 1, 0, 2, 1, 0, 0],
+        [-1, -1, -1, 3, 2, 0, 2, 2, 3, 1],
+        [1, 1, 2, 0, 0, 0, 0, 0, 2, 2],
+        [0, 3, 1, 3, 1, 3, 0, 3, 2, 0],
+        [0, 0, 0, 3, 3, 3, 2, -1, -1, -1],
+        [0, 0, 0, 3, 0, 3, 1, 0, 0, 0],
+        [0, 0, 0, 3, 0, 3, 1, 0, 0, 0]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 5,
+          "color": 2
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": 0
+        }
+      ],
+      "activity": {
+        "id": 18,
+        "groupId": 6,
+        "difficulty": 2
+      }
+    },
+    {
+      "id": "native-8-204700014",
+      "name": "活动 7 · 简单",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86536,
+        "MapId": 8,
+        "EntityId": 204700014,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点13",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 3,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [1, 1, 2, 2, 2, 2, 2, 3, 3, 3],
+        [2, 1, 1, 2, 2, 2, 3, 3, 2, 2],
+        [2, 2, 1, 1, 2, 3, 3, 2, 2, 2],
+        [2, 2, 2, 0, 0, 0, 2, 2, 2, 2],
+        [2, 2, 2, 0, 0, 0, 2, 2, 2, 2],
+        [2, 2, 3, 3, 2, 1, 1, 2, 2, 2],
+        [2, 3, 3, 2, 2, 2, 1, 1, 2, 2],
+        [3, 3, 2, 2, 2, 2, 2, 1, 1, 1]
+      ],
+      "solution": [
+        {
+          "row": 3,
+          "col": 3,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ],
+      "activity": {
+        "id": 19,
+        "groupId": 7,
+        "difficulty": 0
+      }
+    },
+    {
+      "id": "native-8-204700022",
+      "name": "活动 7 · 普通",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86544,
+        "MapId": 8,
+        "EntityId": 204700022,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点21",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 4,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 2, 2, 2, 2, 2, 3, 3, 3],
+        [2, 3, 3, 0, 0, 0, 0, 0, 2, 2],
+        [2, 3, 3, 0, 1, 1, 1, 0, 3, 2],
+        [2, 2, 3, 0, 3, 1, 3, 0, 3, 2],
+        [2, 0, 0, 0, 1, 0, 3, 0, 2, 2],
+        [2, 2, 2, 3, 3, 1, 3, 0, 2, 2],
+        [2, 2, 2, 2, 3, 3, 3, 2, 2, 2],
+        [2, 2, 2, 2, 3, 3, 2, 2, 2, 2]
+      ],
+      "solution": [
+        {
+          "row": 1,
+          "col": 3,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "color": 1
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "color": 2
+        }
+      ],
+      "activity": {
+        "id": 20,
+        "groupId": 7,
+        "difficulty": 1
+      }
+    },
+    {
+      "id": "native-8-204700015",
+      "name": "活动 7 · 困难",
+      "source": {
+        "database": "Client/Content/Aki/ConfigDB/db_level_entity.db",
+        "table": "levelentityconfig",
+        "primaryKey": 86537,
+        "MapId": 8,
+        "EntityId": 204700015,
+        "BlueprintType": "branch2.5_39_Gameplay098",
+        "Name": "TsEntity_溢彩画活动_生命点14",
+        "configPath": "ComponentsData.EntityStateComponent.StateChangeBehaviors[0].Action[0].Params.GameplayConfig"
+      },
+      "kind": "original",
+      "category": "activity",
+      "note": "",
+      "moves": 5,
+      "availableColors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "targetColor": 2,
+      "retryBonusEnabled": false,
+      "bonusRules": [
+        {
+          "paintCount": 10,
+          "addStep": 1
+        },
+        {
+          "paintCount": 20,
+          "addStep": 2
+        }
+      ],
+      "board": [
+        [3, 3, 2, 2, 2, 2, 2, 3, 3, 3],
+        [2, 1, 3, 2, 2, 2, 3, 1, 1, 2],
+        [2, 1, 1, 0, 2, 0, 1, 2, 1, 2],
+        [2, 1, 2, 0, 1, 0, 2, 2, 1, 2],
+        [2, 1, 2, 3, 0, 3, 2, 2, 1, 2],
+        [2, 1, 1, 0, 2, 0, 1, 2, 1, 2],
+        [2, 1, 1, 2, 2, 2, 1, 1, 1, 2],
+        [3, 3, 2, 2, 2, 2, 2, 3, 3, 3]
+      ],
+      "solution": [
+        {
+          "row": 0,
+          "col": 2,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 3
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": 2
+        }
+      ],
+      "activity": {
+        "id": 21,
+        "groupId": 7,
+        "difficulty": 2
+      }
+    }
+  ]
+}
