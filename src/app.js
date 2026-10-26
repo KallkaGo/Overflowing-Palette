@@ -36,7 +36,7 @@ export class Application {
       });
     this.input = bindInput(this.canvas, this.config.layout, this.session.cols, this.session.rows, {
       paused: () => this.dialogs.paused,
-      colorAvailable: color => this.session.availableColors.includes(color),
+      availableColors: () => this.session.availableColors,
       cellEnabled: index => this.session.cells[index].color !== BLOCKED,
       interactive: () => Boolean(this.view) && !this.session.locked && !this.session.finished && !this.dialogs.paused,
       hover: index => { this.ui.hovered = index; },

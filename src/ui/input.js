@@ -23,8 +23,8 @@ export function bindInput(canvas, layout, cols, rows, actions) {
   }
 
   function controlAt({x, y}) {
-    for (let i = 0; i < 4; i++) {
-      if (actions.colorAvailable(i) && Math.hypot(x - orbs.x, y - (orbs.y + i * orbs.step)) <= 34) return "orb" + i;
+    for (const [slot, color] of actions.availableColors().entries()) {
+      if (Math.hypot(x - orbs.x, y - (orbs.y + slot * orbs.step)) <= 34) return "orb" + color;
     }
     for (const name of ["previous", "next"]) {
       const cue = layout.paletteCues[name];

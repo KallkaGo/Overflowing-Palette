@@ -97,8 +97,8 @@ export async function createCanvasView(canvas, config) {
     ctx.drawImage(assets.frames[target], FX, FY, FW, FH);
   }
 
-  function drawOrb(index, selected) {
-    const y = orbs.y + index * orbs.step;
+  function drawOrb(index, slot, selected) {
+    const y = orbs.y + slot * orbs.step;
     ctx.drawImage(pigments[index], orbs.x - 32, y - 32, 64, 64);
     if (index !== selected) return;
     ctx.beginPath();
@@ -242,7 +242,7 @@ export async function createCanvasView(canvas, config) {
     ctx.drawImage(paintRenderer.canvas, 0, 0, DW, DH);
     ctx.drawImage(assets.titleIcon, 61.33, 19.27, 34.24, 34.56);
     drawTopControls();
-    for (const color of session.availableColors) drawOrb(color, session.selected);
+    for (const [slot, color] of session.availableColors.entries()) drawOrb(color, slot, session.selected);
     drawReset();
     drawGoal();
     if (session.finished) {
