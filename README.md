@@ -44,11 +44,12 @@ npm run build
 
 双击生成的 `dist/index.html` 即可离线游玩，也可通过 `npm run preview` 预览构建结果。
 
-## 关卡编制
+## 关卡
 
-「渐进练习」的44关按最少通关步数从易到难排列，同档保留原目录顺序，选项使用「难度 · 图案名」。名称和步数依据保存在 `data/world-catalog.json`；`minimumMoves` 是已确定的最少步数上下界，「交错棋盘」目前为6–7步。活动关保持现有名称和顺序。
+- **渐进练习**：44 关，难度从入门到极难，包含回廊、方窗、色带和棋盘等图案，按由易到难的顺序排列。
+- **溢彩画活动**：21 关，分为简单、普通、困难三档，每档 7 关。
 
-在保有本地 `asstesTools/` 原始提取资料的工作副本中，运行 `npm run levels:import` 重新生成完整关卡和运行时数据；只修改 `data/levels.json` 时运行 `npm run levels`。新增界面或关卡名称后运行 `python3 asstesTools/pack-game-font.py` 更新字体子集，再构建离线包。
+可通过左侧关卡菜单切换。
 
 ## 版权
 
