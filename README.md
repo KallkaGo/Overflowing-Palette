@@ -44,6 +44,12 @@ npm run build
 
 双击生成的 `dist/index.html` 即可离线游玩，也可通过 `npm run preview` 预览构建结果。
 
+## 关卡编制
+
+「渐进练习」的44关按最少通关步数从易到难排列，同档保留原目录顺序，选项使用「难度 · 图案名」。名称和步数依据保存在 `data/world-catalog.json`；`minimumMoves` 是已确定的最少步数上下界，「交错棋盘」目前为6–7步。活动关保持现有名称和顺序。
+
+在保有本地 `asstesTools/` 原始提取资料的工作副本中，运行 `npm run levels:import` 重新生成完整关卡和运行时数据；只修改 `data/levels.json` 时运行 `npm run levels`。新增界面或关卡名称后运行 `python3 asstesTools/pack-game-font.py` 更新字体子集，再构建离线包。
+
 ## 版权
 
 《[鸣潮](https://mc.kurogames.com/main/)》相关内容与游戏资源的版权归[库洛游戏](https://www.kurogames.com/)所有。

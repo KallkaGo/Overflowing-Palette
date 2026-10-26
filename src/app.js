@@ -59,7 +59,7 @@ export class Application {
     window.addEventListener("pointerdown", unlock, {capture: true});
     window.addEventListener("keydown", unlock, {capture: true});
     this.$soundButton.on("click", () => this.toggleSound());
-    for (const [category, label] of [["world", "世界与实例"], ["activity", "溢彩画活动"]]) {
+    for (const [category, label] of [["world", "渐进练习"], ["activity", "溢彩画活动"]]) {
       this.$levelList.append($("<li>").attr("role", "presentation").addClass("level-group").text(label));
       this.session.catalog.levels.forEach((level, index) => {
         if (level.category !== category) return;
